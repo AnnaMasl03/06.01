@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Информация" id="22">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Информация</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Информация</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ИнформацияРасширеннаяПодсказка" id="23"/>
+			<ChildItems>
+				<UsualGroup name="ДанныеОбОрганизации" id="31">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Данные об организации</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Данные об организации</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ExtendedTooltip name="ДанныеОбОрганизацииРасширеннаяПодсказка" id="32"/>
+					<ChildItems>
+						<InputField name="Владелец" id="33">
+							<DataPath>Объект.Владелец</DataPath>
+							<ContextMenu name="ВладелецКонтекстноеМеню" id="34"/>
+							<ExtendedTooltip name="ВладелецРасширеннаяПодсказка" id="35"/>
+						</InputField>
+						<InputField name="ЮридическийАрес" id="54">
+							<DataPath>Объект.ЮридическийАрес</DataPath>
+							<ContextMenu name="ЮридическийАресКонтекстноеМеню" id="55"/>
+							<ExtendedTooltip name="ЮридическийАресРасширеннаяПодсказка" id="56"/>
+						</InputField>
+						<InputField name="ФактическийАдрес" id="57">
+							<DataPath>Объект.ФактическийАдрес</DataPath>
+							<ContextMenu name="ФактическийАдресКонтекстноеМеню" id="58"/>
+							<ExtendedTooltip name="ФактическийАдресРасширеннаяПодсказка" id="59"/>
+						</InputField>
+						<InputField name="ПочтовыйИндекс" id="60">
+							<DataPath>Объект.ПочтовыйИндекс</DataPath>
+							<ContextMenu name="ПочтовыйИндексКонтекстноеМеню" id="61"/>
+							<ExtendedTooltip name="ПочтовыйИндексРасширеннаяПодсказка" id="62"/>
+						</InputField>
+						<InputField name="Телефон" id="42">
+							<DataPath>Объект.Телефон</DataPath>
+							<ContextMenu name="ТелефонКонтекстноеМеню" id="43"/>
+							<ExtendedTooltip name="ТелефонРасширеннаяПодсказка" id="44"/>
+						</InputField>
+						<InputField name="ЭлектроннаяПочта" id="36">
+							<DataPath>Объект.ЭлектроннаяПочта</DataPath>
+							<ContextMenu name="ЭлектроннаяПочтаКонтекстноеМеню" id="37"/>
+							<ExtendedTooltip name="ЭлектроннаяПочтаРасширеннаяПодсказка" id="38"/>
+						</InputField>
+						<InputField name="ИНН" id="45">
+							<DataPath>Объект.ИНН</DataPath>
+							<ContextMenu name="ИННКонтекстноеМеню" id="46"/>
+							<ExtendedTooltip name="ИННРасширеннаяПодсказка" id="47"/>
+						</InputField>
+						<InputField name="КПП" id="48">
+							<DataPath>Объект.КПП</DataPath>
+							<ContextMenu name="КППКонтекстноеМеню" id="49"/>
+							<ExtendedTooltip name="КППРасширеннаяПодсказка" id="50"/>
+						</InputField>
+						<InputField name="ОГРН" id="51">
+							<DataPath>Объект.ОГРН</DataPath>
+							<ContextMenu name="ОГРНКонтекстноеМеню" id="52"/>
+							<ExtendedTooltip name="ОГРНРасширеннаяПодсказка" id="53"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="РегистрационныеДанные" id="24">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Регистрационные данные</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Регистрационные данные</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ExtendedTooltip name="РегистрационныеДанныеРасширеннаяПодсказка" id="25"/>
+					<ChildItems>
+						<InputField name="ПолноеНаименованиеОрганизации" id="10">
+							<DataPath>Объект.ПолноеНаименованиеОрганизации</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ПолноеНаименованиеОрганизацииКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="ПолноеНаименованиеОрганизацииРасширеннаяПодсказка" id="12"/>
+						</InputField>
+						<InputField name="СокращённоеНаименование" id="13">
+							<DataPath>Объект.СокращённоеНаименование</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="СокращённоеНаименованиеКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="СокращённоеНаименованиеРасширеннаяПодсказка" id="15"/>
+						</InputField>
+						<InputField name="ДатаРегистрации" id="7">
+							<DataPath>Объект.ДатаРегистрации</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДатаРегистрацииКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="ДатаРегистрацииРасширеннаяПодсказка" id="9"/>
+						</InputField>
+						<InputField name="НомерГосударственнойРегистрации" id="16">
+							<DataPath>Объект.НомерГосударственнойРегистрации</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="НомерГосударственнойРегистрацииКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="НомерГосударственнойРегистрацииРасширеннаяПодсказка" id="18"/>
+						</InputField>
+						<InputField name="РегистрационныйОрган" id="19">
+							<DataPath>Объект.РегистрационныйОрган</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="РегистрационныйОрганКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="РегистрационныйОрганРасширеннаяПодсказка" id="21"/>
+						</InputField>
+						<PictureField name="СсылкаНаКартинку" id="28">
+							<DataPath>СсылкаНаКартинку</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Свидетельство о регистрации</v8:content>
+								</v8:item>
+							</Title>
+							<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<HorizontalStretch>false</HorizontalStretch>
+							<VerticalStretch>false</VerticalStretch>
+							<Zoomable>true</Zoomable>
+							<ImageScale>10</ImageScale>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="СсылкаНаКартинкуКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="СсылкаНаКартинкуРасширеннаяПодсказка" id="30"/>
+							<Events>
+								<Event name="Click">СсылкаНаКартинкуНажатие</Event>
+							</Events>
+						</PictureField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.СведенияОбОрганизации</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+		<Attribute name="СсылкаНаКартинку" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ссылка на картинку</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+</Form>

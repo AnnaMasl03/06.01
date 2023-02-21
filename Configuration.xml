@@ -1,39 +1,44 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
-	<Configuration uuid="2cf8b775-61c8-4e5b-b422-3009a92ba6b1">
+	<Configuration uuid="014e5a46-7f73-4263-a891-1486db84d227">
 		<InternalInfo>
 			<xr:ContainedObject>
 				<xr:ClassId>9cd510cd-abfc-11d4-9434-004095e12fc7</xr:ClassId>
-				<xr:ObjectId>fed8bc9e-9ff9-4eac-a3b9-23f8c5e42e96</xr:ObjectId>
+				<xr:ObjectId>28674396-738c-4274-9035-3dc443ce6a79</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>9fcd25a0-4822-11d4-9414-008048da11f9</xr:ClassId>
-				<xr:ObjectId>d6e351fd-a90a-4170-94d1-2e8e239ef437</xr:ObjectId>
+				<xr:ObjectId>c27c2231-077d-46c8-a5bf-8026cfe8e340</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>e3687481-0a87-462c-a166-9f34594f9bba</xr:ClassId>
-				<xr:ObjectId>8c0432af-00ab-4957-aaf2-94313faaaba6</xr:ObjectId>
+				<xr:ObjectId>ae32a24c-88be-4c47-8aad-a8f70b8e7b28</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>9de14907-ec23-4a07-96f0-85521cb6b53b</xr:ClassId>
-				<xr:ObjectId>041ef885-0ce1-4dcc-83a7-b57bf68dd27d</xr:ObjectId>
+				<xr:ObjectId>b63d4eaa-d310-4d9a-aca3-594ab6768f59</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>51f2d5d8-ea4d-4064-8892-82951750031e</xr:ClassId>
-				<xr:ObjectId>380f0d91-73c6-45d5-8f8f-8437cf1b0c80</xr:ObjectId>
+				<xr:ObjectId>bb65af8f-398f-4c24-ad02-07da7d3a7163</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>e68182ea-4237-4383-967f-90c1e3370bc7</xr:ClassId>
-				<xr:ObjectId>92eeaf71-f2e5-4bb5-a71d-151467e30036</xr:ObjectId>
+				<xr:ObjectId>a535a760-8856-48db-bb46-e80205552314</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>387a914d-e0ad-4c65-ae1e-d22c51361ba7</xr:ObjectId>
+				<xr:ObjectId>27e8b024-e477-47e8-97b7-6fa88f932e91</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
-			<Name>Конфигурация</Name>
-			<Synonym/>
+			<Name>ЖСКНоваяЭра</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ЖСК "Новая эра"</v8:content>
+				</v8:item>
+			</Synonym>
 			<Comment/>
 			<NamePrefix/>
 			<ConfigurationExtensionCompatibilityMode>Version8_3_22</ConfigurationExtensionCompatibilityMode>
@@ -198,7 +203,7 @@
 			<MobileApplicationURLs/>
 			<MainClientApplicationWindowMode>Normal</MainClientApplicationWindowMode>
 			<DefaultInterface/>
-			<DefaultStyle/>
+			<DefaultStyle>Style.НоваяЭра</DefaultStyle>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -210,11 +215,43 @@
 			<ModalityUseMode>DontUse</ModalityUseMode>
 			<SynchronousPlatformExtensionAndAddInCallUseMode>DontUse</SynchronousPlatformExtensionAndAddInCallUseMode>
 			<InterfaceCompatibilityMode>Taxi</InterfaceCompatibilityMode>
-			<CompatibilityMode>Version8_3_22</CompatibilityMode>
+			<CompatibilityMode>Version8_3_20</CompatibilityMode>
 			<DefaultConstantsForm/>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>Организация</Subsystem>
+			<Subsystem>Строительство</Subsystem>
+			<Style>НоваяЭра</Style>
+			<CommonPicture>Инфо</CommonPicture>
+			<CommonPicture>Сведения</CommonPicture>
+			<CommonPicture>Строительство</CommonPicture>
+			<CommonPicture>Лого</CommonPicture>
+			<Role>Владелец</Role>
+			<Role>Участник</Role>
+			<Role>ИнженерСтроитель</Role>
+			<CommonForm>ЖСКНоваяЭра</CommonForm>
+			<Catalog>Участники</Catalog>
+			<Catalog>Строители</Catalog>
+			<Catalog>Контрагенты</Catalog>
+			<Catalog>Спецтехника</Catalog>
+			<Document>ПланСтроительства</Document>
+			<Document>ПриходнаяНакладная</Document>
+			<Document>РасходнаяНакладная</Document>
+			<Document>ДоговорСУчастником</Document>
+			<Document>СведенияОбОрганизации</Document>
+			<Document>ЗаявлениеНаУчастие</Document>
+			<Document>ДоговорНаПоставкуСтройматериалов</Document>
+			<Enum>СтатусСтроительства</Enum>
+			<Enum>СтатьиРасходов</Enum>
+			<Enum>ВидКонтрагента</Enum>
+			<Enum>Пол</Enum>
+			<Enum>КатегорииСпецтехники</Enum>
+			<Enum>ПредназначениеСпецтехники</Enum>
+			<Report>ВнесённыеСредства</Report>
+			<Report>РасходСредствКооператива</Report>
+			<Report>РасходСредствНаСтроительныеМатериалы</Report>
+			<InformationRegister>СтроительныеМатериалы</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
